@@ -45,7 +45,7 @@ function toggleSniperMode() {
 
 // Listen for the 'S' key to toggle sniper mode
 document.addEventListener('keydown', function(event) {
-    if (event.key === 's' || event.key === 'S') {
+    if (event.key === 'z' || event.key === 'Z') {
         toggleSniperMode();
     }
 });
